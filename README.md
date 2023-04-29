@@ -4,3 +4,10 @@
  ## Sharpening Filter
  - Sharpening as name suggests is used to sharpen and highlight the edges and make the transitioning of features and details more significant. However  sharpening doesn't take into account whether it is highlighting the original features of the image or the noise associated with it. It enhances both.
 - This project was implemented using the sharpening filter matrix of [[0,-1,0],[-1,5,-1],[0,-1,0]].
+## Implementation:
+The filter has been applied to an input image using the convolution operation. The resulting image is then displayed.
+
+## Requirements:
+- Python 3.x
+- NumPy
+- OpenCV
